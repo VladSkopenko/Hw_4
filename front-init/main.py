@@ -5,7 +5,6 @@ import mimetypes
 import logging
 from datetime import datetime
 import json
-from jinja2 import Environment, FileSystemLoader
 from threading import Thread
 import socket
 
