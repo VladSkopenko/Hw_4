@@ -13,7 +13,7 @@ def main(host=socket.gethostname(), port=5000):
             print(f"Received {msg}")
             message = input(">>>")
             conn.send(message.encode())
-        conn.close()
+
 
 
 if __name__ == "__main__":
